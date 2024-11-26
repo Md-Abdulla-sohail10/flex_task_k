@@ -1,0 +1,54 @@
+.container{
+    border: 2px solid black;
+}
+.div1{
+    border: 2px solid black;
+   margin: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+
+}
+img{
+    height: 250px;
+    width: 223px;
+}
+h1{
+    background-color: lawngreen;
+    margin: 0px;
+}
+.div1 div > a{
+    display: flex;
+justify-content: space-evenly;
+margin-bottom: 5px;
+
+}
+.div2{
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.div2 div > img{
+    height: 300px;
+    width: 300px;
+}
+.div2 div > a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    border: 2px solid blaCK;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.div3 div > a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
